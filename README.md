@@ -3,11 +3,13 @@ The python script DSMC_datagen.py generates data points for distribution at f0, 
 A sample of generated data which includes 100 points is also provided (data_hist.npz). One can read the file with a py script like:
 
 ---------------------------
+
 import numpy as np;
 
 loaded = np.load('data_hist.npz');
 
-data = loaded['a'];
+data = loaded['a']
+
 --------------------------
 
 Note that here:
